@@ -109,7 +109,7 @@ a:hover { color: var(--accent); }
 
 /* 검은 푸터 */
 .foot { background: var(--ink); color: var(--paper); padding-block: 24px 20px; row-gap: 40px; font-size: var(--small); }
-.foot-col { grid-column: span 3; display: grid; gap: 2px; align-content: start; }
+.foot-col { grid-column: span 4; display: grid; gap: 2px; align-content: start; }
 .foot-h { margin-bottom: 14px; }
 .foot a { text-decoration: none; justify-self: start; }
 .foot a:hover { text-decoration: underline; }
@@ -140,6 +140,7 @@ a:hover { color: var(--accent); }
   .trio .col, .trio .col:last-child { grid-column: 1 / -1; }
   .accent-btn { min-width: 100%; text-align: center; padding: 12px 14px; }
   .foot-col { grid-column: span 6; }
+  .foot-col:first-child { grid-column: 1 / -1; }
   .foot-btn { min-width: 0; }
 }
 
